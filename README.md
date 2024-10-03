@@ -64,7 +64,7 @@ When an email is clicked, a detailed view of the email should be displayed. This
 Emails in the `Inbox` should have an "Archive" button that allows them to be moved to the `Archive` mailbox.
 * Archived emails should have an "Unarchive" button that allows them to be moved back to the Inbox.
 * Emails in the Sent mailbox should not have these options.
-* Archiving and unarchiving can be managed by sending a PUT request to /emails/<email_id> to update the "archived" status of the email.
+* Archiving and unarchiving can be managed by sending a `PUT` request to `/emails/<email_id>` to update the "archived" status of the email.
 * After an email is archived or unarchived, the user’s Inbox should be reloaded.
 
 #### Reply:
