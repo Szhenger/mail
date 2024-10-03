@@ -27,7 +27,7 @@ These sections are toggled by the buttons at the top of the page. For example, c
 
 The `inbox.js` file, located at `mail/static/mail/inbox.js`, handles the dynamic behavior of the application. When the DOM content is loaded, event listeners are attached to the buttons to control the switching of views.
 * `compose_email` function: This function is triggered when the "Compose" button is clicked. It hides the `emails-view`, shows the `compose-view`, and clears the email form to allow the user to start a new email from scratch.
-* `load_mailbox` function: This function is triggered when one of the mailbox buttons (Inbox, Sent, or Archive) is clicked. It shows the `emails-view`, hides the `compose-view`, and updates the content of the `emails-view` to reflect the selected mailbox. Currently, the function simply displays the name of the mailbox but does not yet fetch or display actual emails.
+* `load_mailbox` function: This function is triggered when one of the mailbox buttons (`Inbox`, `Sent`, or `Archive`) is clicked. It shows the `emails-view`, hides the `compose-view`, and updates the content of the `emails-view` to reflect the selected mailbox. Currently, the function simply displays the name of the mailbox but does not yet fetch or display actual emails.
 
 #### API Integration:
 
