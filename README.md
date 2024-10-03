@@ -78,4 +78,4 @@ These core features should be implemented to ensure a functional and interactive
 
 ## Credit and Disclaimer
 
-This problem originally came from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/3/mail/), and any solutions here are explicitly for educational purposes only. 
+This problem originally came from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/3/mail/) with the API written by the CS50 Team, and any solutions here are explicitly for educational purposes only. 
